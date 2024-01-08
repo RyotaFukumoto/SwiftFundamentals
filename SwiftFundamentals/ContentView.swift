@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    // @Stateをつけると、変数の値が変わったときに画面が更新される
+    @State private var count = 0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("カウント: \(count)")
+                .font(.largeTitle)
+            Button(action: {
+                // ボタンが押されるたびにカウントを1増やす
+                self.count += 1
+            }) {
+                Text("カウントアップ")
+                    .font(.title)
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
         }
         .padding()
     }
