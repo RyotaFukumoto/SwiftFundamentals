@@ -44,6 +44,7 @@
 		A3B0E6432B4B830B004D6A17 /* SwiftFundamentalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFundamentalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B0E6472B4B830B004D6A17 /* SwiftFundamentalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFundamentalsUITests.swift; sourceTree = "<group>"; };
 		A3B0E6492B4B830B004D6A17 /* SwiftFundamentalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFundamentalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A98AF96E2B53AEF600A58F41 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		A3B0E6202B4B8305004D6A17 = {
 			isa = PBXGroup;
 			children = (
+				A98AF96E2B53AEF600A58F41 /* readme.md */,
 				A3B0E62B2B4B8306004D6A17 /* SwiftFundamentals */,
 				A3B0E63C2B4B830B004D6A17 /* SwiftFundamentalsTests */,
 				A3B0E6462B4B830B004D6A17 /* SwiftFundamentalsUITests */,
